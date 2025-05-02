@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -9,10 +10,13 @@
   </head>
 
   <body>
+    <!-- ヘッダー -->
     <header>
+      <!-- ロゴ -->
       <a href="index.html" id="logo">
         <img src="images/logo.png" alt="トップページに戻る">
       </a>
+
       <!-- PC用ナビゲーション -->
       <nav id="nav-pc">
         <ul>
@@ -24,15 +28,18 @@
           <li><a href="index.html#contact">CONTACT</a></li>
         </ul>
       </nav>
+
       <!-- スマホ用メニューボタン -->
       <button id="menu-sp" onclick="document.getElementById('nav-sp').style.display = 'block'">
         <img src="images/button-menu.png" alt="ナビゲーションを開く">
       </button>
+
       <!-- スマホ用ナビゲーション -->
       <div id="nav-sp">
         <button id="close" onclick="document.getElementById('nav-sp').style.display = 'none'">
           <img src="images/button-close.png" alt="ナビゲーションを閉じる">
         </button>
+
         <nav>
           <ul>
             <li>
@@ -59,8 +66,10 @@
         </div>
       </div>
     </header>
+
     <main>
       <article>
+        <!-- メインビジュアル -->
         <section id="main-visual">
           <div id="main-message">
             <h1>WORLD PEACE</h1>
@@ -68,6 +77,8 @@
           </div>
           <img src="images/index/index-main.png" alt="PCの周りに集まる多国籍の仲間たち">
         </section>
+
+        <!-- ミッション -->
         <section id="mission">
           <h2 class="index-h2">MISSION</h2>
           <div id="mission-flex">
@@ -86,6 +97,8 @@
             </div>
           </div>
         </section>
+
+        <!-- プロダクト -->
         <section id="product">
           <h2 class="index-h2">PRODUCT</h2>
           <div class="product-flex">
@@ -132,6 +145,8 @@
             </a>
           </div>
         </section>
+
+        <!-- ABOUT US -->
         <section id="aboutus">
           <h2 class="index-h2">ABOUT US</h2>
           <h3>3つの組織文化</h3>
@@ -143,7 +158,7 @@
               </tr>
               <tr>
                 <td>
-
+                  <!--空のセル-->
                 </td>
                 <td class="culture-description">リモートワーク、フルフレックス、副業推奨など1人1人が最大限のパフォーマンスを発揮できる柔軟な働き方を促進しています。</td>
               </tr>
@@ -153,6 +168,7 @@
               </tr>
               <tr>
                 <td>
+                  <!--空のセル-->
                 </td>
                 <td class="culture-description">会社全体を1つの生命体として捉え、お互いが深く結びついた一階層型 組織として部署・チーム関係なく課題解決をできる組織を目指しています。</td>
               </tr>
@@ -162,6 +178,7 @@
               </tr>
               <tr>
                 <td>
+                  <!--空のセル-->
                 </td>
                 <td class="culture-description">クオーター毎に経営・部署・個人ごとにOKRを設定し個人のキャリアと 会社の目指す方向の軌道修正を行っております。</td>
               </tr>
@@ -170,6 +187,8 @@
           </div>
           <img class="culture-img2" src="images/index/index-aboutus2.png" alt="笑顔で話し合う3人の男女">
         </section>
+
+        <!-- VISION -->
         <section id="vision">
           <h2 class="index-h2">VISION</h2>
           <h3>7つの行動指針</h3>
@@ -232,6 +251,26 @@
             </div>
           </div>
         </section>
+        <section id="case">
+          <h2 class="index-h2">CASES</h2>
+            <div class="case-flex">
+              <div class="casebox">
+                <img class="photocase-container" src="images/index/case-1.png" alt="">
+                  <h3>〇〇〇〇株式会社</h3>
+                  <p>新規プロジェクトでのIT人材サポート</p>
+                </div>
+                <div class="casebox">
+                  <img class="photocase-container" src="images/index/case-2.png" alt="">
+                  <h3>合弁会社△△△△様</h3>
+                  <p>新卒研修の個人学習コンテンツの活用</p>
+              </div>
+                <div class="casebox">
+                  <img class="photocase-container" src="images/index/case-3.png" alt="">
+                  <h3>●●●●工業様</h3>
+                  <p>新規導入アプリケーションの利用促進、定期社内研修の実施</p>    
+              </div>
+            </div>
+        </section>
         <section id="company">
           <h2 class="index-h2">COMPANY</h2>
           <h3>会社概要</h3>
@@ -255,6 +294,8 @@
           </table>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.0688551336807!2d139.7720776771055!3d35.69992317258124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188fee13660e23%3A0x77137876edf742ac!2z5L2P5Y-L5LiN5YuV55Sj56eL6JGJ5Y6f6aeF5YmN44OT44Or!5e0!3m2!1sja!2sjp!4v1704858013291!5m2!1sja!2sjp" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
         </section>
+
+        <!-- お問い合わせフォーム -->
         <section id="contact">
           <h2 class="index-h2">CONTACT</h2>
           <h3>お問い合わせ</h3>
@@ -359,6 +400,7 @@
         </section>
       </article>
     </main>
+
     <footer>
       <div id="footer-logo">
         <img src="images/logo-sp.png" alt="SocialTech">
@@ -377,8 +419,9 @@
           <a href="https://twitter.com/samuraijuku"><img src="images/button-twitter.png" alt="Twitterのリンク"></a>
           <a href="https://www.youtube.com/channel/UCCFOQO5aDK0xXam4cUQXT8g"><img src="images/button-youtube.png" alt="YouTubeのリンク"></a>
         </div>
-        <p id="copyright">&copy;2025 SocialTech, Inc. All Rights Reserved.</p>
+        <p id="copyright">&copy;2021 SocialTech, Inc. All Rights Reserved.</p>
       </div>
     </footer>
+
   </body>
 </html>

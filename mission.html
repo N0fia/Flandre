@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -7,11 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
     <header>
       <a href="index.html" id="logo">
         <img src="images/logo.png" alt="トップページに戻る">
       </a>
+
+      <!-- PC用ナビゲーション -->
       <nav id="nav-pc">
         <ul>
           <li><a href="mission.html">MISSION</a></li>
@@ -22,13 +26,18 @@
           <li><a href="index.html#contact">CONTACT</a></li>
         </ul>
       </nav>
+
+      <!-- スマホ用メニューボタン -->
       <button id="menu-sp" onclick="document.getElementById('nav-sp').style.display = 'block'">
         <img src="images/button-menu.png" alt="ナビゲーションを開く">
       </button>
+
+      <!-- スマホ用ナビゲーション -->
       <div id="nav-sp">
         <button id="close" onclick="document.getElementById('nav-sp').style.display = 'none'">
           <img src="images/button-close.png" alt="ナビゲーションを閉じる">
         </button>
+
         <nav>
           <ul>
             <li>
@@ -55,21 +64,24 @@
         </div>
       </div>
     </header>
+
     <main>
       <article>
         <section id="mission-main">
           <div class="mission-main-inner">
             <div id="mission-title">
               <h1>MISSION<br><span>ミッション</span></h1>
-              <p>TOP >> MISSION</p>
+              <p>TOP > MISSION</p>
             </div>
           </div>
         </section>
+
         <section id="mission-s2dgs">
           <h2 class="mission-h2">S2DGsの実現</h2>
           <p>国連の掲げる大中小169個の目標「SDGs」のうち、以下の5つの大目標の実現をミッションとします。</p>
           <img src="images/mission/mission-s2dgs.png" alt="S2DGs">
         </section>
+
         <section id="mission-five-goals">
           <div class="five-goals-image">
             <img src="images/mission/mission-5goals.png" alt="5Goals">
@@ -89,6 +101,7 @@
             </div>
             <div>
               <img class="fivegoals-image-left" src="images/mission/mission-5goals03.png" alt="PCを操作する女性">
+
               <span class="fivegoals-number">03</span>
               <h3 class="fivegoals-h3">ジェンダー平等の実現</h3>
               <p class="fivegoals-p">女性エンジニアを輩出することは、ジェンダーギャップ指数の経済、教育分野に影響を与えると考えています。女性エンジニアを増やすことで、ライフイベントが多い女性の社会進出を促す機会の創出やシングルマザーの貧困解消をし、男女格差の無い、健全な社会を目指します。</p>
@@ -109,6 +122,7 @@
         </section>
       </article>
     </main>
+
     <footer>
       <div id="footer-logo">
         <img src="images/logo-sp.png" alt="SocialTech">
@@ -127,8 +141,9 @@
           <a href="https://twitter.com/samuraijuku"><img src="images/button-twitter.png" alt="Twitterのリンク"></a>
           <a href="https://www.youtube.com/channel/UCCFOQO5aDK0xXam4cUQXT8g"><img src="images/button-youtube.png" alt="YouTubeのリンク"></a>
         </div>
-        <p id="copyright">&copy;2025 SocialTech, Inc. All Rights Reserved.</p>
+        <p id="copyright">&copy;2021 SocialTech, Inc. All Rights Reserved.</p>
       </div>
     </footer>
+
   </body>
 </html>
